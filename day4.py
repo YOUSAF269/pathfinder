@@ -34,7 +34,7 @@ def find_index(nums,target):
             return i
 print(find_index([1,2,4],4))
 print((2,3)==(2,3))
-print((2,3)==(3,2))
+print((2,3)==(4,2))
 #build task
 def get_neighbours(grid,cell):
     r,c=cell
