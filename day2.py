@@ -12,7 +12,7 @@ print(len(visited))
 #dictionary
 came_from={}
 came_from[(0,1)]=(0,0)
-print(came_from([0,1]))
+print(came_from[(0,1)])
 print((0,5) in came_from)
 #nested loop over cell
 grid=[[0,0,0],[0,1,0],[0,0,0]]
