@@ -76,3 +76,8 @@ grid[0][1]=1
 grid[1][0]=1
 order,path=bfs(grid,(0,0),(2,2))
 print(path)
+#importing purpose
+def double(x):
+    return x*2
+a=double(2)
+print(a)
